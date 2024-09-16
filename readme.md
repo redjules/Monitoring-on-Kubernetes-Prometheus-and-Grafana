@@ -1,4 +1,4 @@
-## Refer to step-by-step file
+**Refer to [step-by-step file](https://github.com/redjules/Monitoring-on-Kubernetes-Prometheus-and-Grafana/blob/main/step-by-step.md) for full instructions**
 
 ## Steps to be performed:
 
