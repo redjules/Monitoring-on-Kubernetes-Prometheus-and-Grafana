@@ -14,6 +14,8 @@ we deploy Prometheus and Grafana with helm following the commands from the readm
 
 ![prometheus](prometheus.png)
 
+
+
 ![grafana](grafana.png)
 
 We do first portforwarding to access Prometheus:
