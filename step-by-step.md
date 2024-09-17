@@ -16,17 +16,17 @@ we deploy Prometheus and Grafana with helm following the commands from the readm
 
 ![grafana](pics/grafana.png)
 
-We do first portforwarding to access Prometheus:
+We do first port-forwarding to access Prometheus:
 
 ![portforwarding](pics/portforwarding.png)
 
-After, instead of doing port forwarding we will change the service type top load balancer to access easier:
+After, instead of doing port forwarding we will change the service type to load balancer to access easier:
 
 ![loadbalancer](pics/loadbalancer.png)
 
-In Grafana we put Prometheus as data source adn put the Prometheus server URL with the address from the Prometheus we got before
+In Grafana we put Prometheus as data source and put the Prometheus server URL with the address from the Prometheus we got before
 
-We will trigger a notification with Slack using the slack api, create an App, from scratch. We activate Incoming Webhooks, we choose a channel and create a secret for the alert manager with the webhook url.
+We will trigger a notification with Slack using the slack api, and create an App, from scratch. We activate Incoming Webhooks, choose a channel and create a secret for the alert manager with the webhook url.
 
 We apply the prometheus alertmanagerconfig.yaml and scale down deployment contacts:
 
